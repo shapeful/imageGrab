@@ -37,4 +37,4 @@ jobs:
           git commit -m "Update data from manual action" || echo "No changes to commit"
           git push
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # Automatically provided by GitHub Actions
+          GITHUB_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }}  # Automatically provided by GitHub Actions
