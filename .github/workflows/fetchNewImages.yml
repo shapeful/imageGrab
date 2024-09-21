@@ -24,7 +24,10 @@ jobs:
           pip install -r requirements.txt  # Ensure this file exists in your repo
 
       - name: Run Python script
-        run: python update_data.py  # Run your script
+        run: python run.py  # Run your script
+      
+      - name: Run Python script
+        run: python stitch.py  # Run your script
 
       - name: Commit and push changes
         run: |
