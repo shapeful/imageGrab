@@ -15,4 +15,4 @@ jobs:
       - name: Trigger Manual Action
         uses: repository_dispatch
         with:
-          event-type: fetchNewImages
+          event-type: run-manual-action
